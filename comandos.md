@@ -17,3 +17,12 @@ git revert <commit-id>: Permite revertir los cambios actuales a un commit previo
 git merge <branch-name>: Permite unir los cambios de 2 ramas, en caso de conflicto de debe corregir de manera manual
 git rebase <branch-name>: Permite poner los cambios de la rama actual en la cabeza de los cambios de la rama ingresada en el comando
 git reset: este si les dejo que revisen que tiene muchos usos y les voy a confundir xd
+
+Mensajes de commit
+Los mensajes de commit deben seguir el siguiente formato, además de estar escritos en inglés:
+	•	feat Una nueva característica
+	•	fix Una corrección de errores
+	•	refactor Un cambio de código que no corrige un error ni agrega una característica
+	•	test Adición de pruebas faltantes o corrección de pruebas existentes
+	•	build Cambios que afectan el sistema de compilación o las dependencias externas (ámbitos de ejemplo: lápiz, brócoli, npm)
+	•	docs Documentación, solo cambios
